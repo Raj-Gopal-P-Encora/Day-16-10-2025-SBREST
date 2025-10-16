@@ -30,7 +30,7 @@ jobs:
  
     - name: Build with Maven
       run: |
-        cd SBSecurity
+        cd SBREST
         mvn clean install
  
     - name: Run tests
